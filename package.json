@@ -1,0 +1,27 @@
+{
+  "name": "gpt-terminal",
+  "version": "1.0.0",
+  "description": "Chat GPT Terminal for custom questions with history attachment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kori2000/gpt-terminal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kori2000/gpt-terminal/issues"
+  },
+  "homepage": "https://github.com/kori2000/gpt-terminal#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.15"
+  }
+}
